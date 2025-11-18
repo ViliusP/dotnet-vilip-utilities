@@ -1,3 +1,7 @@
 ﻿<Solution>
-    <Project Path="Providers.DockerSecrets/Providers.DockerSecrets.csproj"></Project>
+    <Project Path="Vilip.Utilities.Providers.DockerSecrets/Vilip.Utilities.Providers.DockerSecrets.csproj"></Project>
+
+    <Folder Name="/tests/">
+        <Project Path="tests/Vilip.Utilities.Providers.DockerSecrets/Vilip.Utilities.Providers.DockerSecrets.Tests.csproj" />
+    </Folder>
 </Solution>
