@@ -1,9 +1,9 @@
 using System.Collections;
 
-using Vilip.Utilties.EnvironmentTransformer;
+namespace Vilip.Utilties.EnvironmentTransformer;
 
 
-class EnvironmentTransformer
+public class EnvironmentTransformer
 {
     public static void Apply(EnvironmentTransformerOptions options)
     {
