@@ -17,7 +17,8 @@ public class EnvSnakeCaseToPascalTransformer : IVariableTransformer
 
     public string Apply(string value)
     {
-        if(_matcher != null && !_matcher(value)) return value;
+        if (_matcher is not null && !_matcher(value)) return value;
+
 
         var sections = value
             .Split(["__"], StringSplitOptions.None)

@@ -4,5 +4,6 @@
 
     <Folder Name="/tests/">
         <Project Path="tests/Vilip.Utilities.Providers.DockerSecrets/Vilip.Utilities.Providers.DockerSecrets.Tests.csproj" />
+        <Project Path="tests/Vilip.Utilties.EnvironmentTransformer/Vilip.Utilties.EnvironmentTransformer.Tests.csproj" />
     </Folder>
 </Solution>
