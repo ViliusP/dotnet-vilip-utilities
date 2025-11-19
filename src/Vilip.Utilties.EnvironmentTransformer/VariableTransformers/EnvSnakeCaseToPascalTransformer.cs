@@ -3,7 +3,7 @@ using System.Globalization;
 namespace Vilip.Utilties.EnvironmentTransformer.VariableTransformers;
 
 
-class EnvSnakeCaseToPascalTransformer : IVariableTransformer
+public class EnvSnakeCaseToPascalTransformer : IVariableTransformer
 {
     private readonly Matcher? _matcher;
 
