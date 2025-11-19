@@ -1,5 +1,6 @@
 ﻿<Solution>
     <Project Path="Vilip.Utilities.Providers.DockerSecrets/Vilip.Utilities.Providers.DockerSecrets.csproj"></Project>
+    <Project Path="Vilip.Utilties.EnvironmentTransformer/Vilip.Utilties.EnvironmentTransformer.csproj"></Project>
 
     <Folder Name="/tests/">
         <Project Path="tests/Vilip.Utilities.Providers.DockerSecrets/Vilip.Utilities.Providers.DockerSecrets.Tests.csproj" />

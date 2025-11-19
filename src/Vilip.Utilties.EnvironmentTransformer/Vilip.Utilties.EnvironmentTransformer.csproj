@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>Vilip.Utilties.EnvironmentTransformer</AssemblyName>
+    <RootNamespace>Vilip.Utilties.EnvironmentTransformer</RootNamespace>
+    <Description>Environment variable mapper for Microsoft.Extensions.Configuration</Description>
+    <Authors>Vilius Paliokas</Authors>
+    <PackageId>Vilip.Utilties.EnvironmentTransformer</PackageId>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="[9.*, 11.0.0)" />
+  </ItemGroup>
+
+</Project>
