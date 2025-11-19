@@ -17,10 +17,10 @@ public class EnvSnakeCaseToPascalTransformer : IVariableTransformer
 
     public string Apply(string value)
     {
-        if(_matcher != null && _matcher(value)) return value;
+        if(_matcher != null && !_matcher(value)) return value;
 
         var sections = value
-            .Split("__")
+            .Split(["__"], StringSplitOptions.None)
             .Select(SnakeCaseToPascal);
 
         return string.Join("__", sections);
@@ -29,9 +29,9 @@ public class EnvSnakeCaseToPascalTransformer : IVariableTransformer
     private string SnakeCaseToPascal(string value)
     {
         var words = value
-            .Split("_")
-            .Select(_cultureInfo.TextInfo.ToTitleCase);
+            .Split('_', StringSplitOptions.RemoveEmptyEntries)
+            .Select(w => _cultureInfo.TextInfo.ToTitleCase(w.ToLower(_cultureInfo)));
 
-        return string.Join("", words);
+        return string.Concat(words);
     }
 }
