@@ -77,9 +77,9 @@ builder.Configuration.AddDockerSecrets(options =>
 });
 ```
 
-## Vilip.Utilties.EnvironmentTransformer
+## Vilip.Utilities.EnvironmentTransformer
 
-`Vilip.Utilties.EnvironmentTransformer` is a lightweight .NET utility for transforming environment variable keys and values. 
+`Vilip.Utilities.EnvironmentTransformer` is a lightweight .NET utility for transforming environment variable keys and values. 
 
 It provides:
 
@@ -112,7 +112,7 @@ It provides:
 ### Example - Basic Usage
 
 ```csharp
-using Vilip.Utilties.EnvironmentTransformer;
+using Vilip.Utilities.EnvironmentTransformer;
 
 // Configure options
 var options = new EnvironmentTransformerOptions
@@ -128,7 +128,7 @@ EnvironmentTransformer.Apply(options);
 ### Example - Using a Custom Transformer (SnakeCase → PascalCase)
 
 ```csharp
-using Vilip.Utilties.EnvironmentTransformer.VariableTransformers;
+using Vilip.Utilities.EnvironmentTransformer.VariableTransformers;
 
 // Create transformer
 var transformer = new EnvSnakeCaseToPascalTransformer();
@@ -141,7 +141,7 @@ string transformed = transformer.Apply("MQTT_CLIENT__HOST_NAME");
 ### Example - Conditional Transformation with Matcher
 
 ```csharp
-using Vilip.Utilties.EnvironmentTransformer.VariableTransformers;
+using Vilip.Utilities.EnvironmentTransformer.VariableTransformers;
 
 // Transform only keys starting with "MQTT_"
 Matcher matcher = key => key.StartsWith("MQTT_", StringComparison.OrdinalIgnoreCase);

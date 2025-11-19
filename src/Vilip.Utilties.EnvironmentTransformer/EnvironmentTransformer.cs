@@ -1,6 +1,6 @@
 using System.Collections;
 
-namespace Vilip.Utilties.EnvironmentTransformer;
+namespace Vilip.Utilities.EnvironmentTransformer;
 
 
 /// <summary>

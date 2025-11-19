@@ -1,6 +1,6 @@
 using System.Globalization;
 
-namespace Vilip.Utilties.EnvironmentTransformer.VariableTransformers;
+namespace Vilip.Utilities.EnvironmentTransformer.VariableTransformers;
 
 
 /// <summary>

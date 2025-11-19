@@ -5,11 +5,11 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <LangVersion>latest</LangVersion>
-    <AssemblyName>Vilip.Utilties.EnvironmentTransformer</AssemblyName>
-    <RootNamespace>Vilip.Utilties.EnvironmentTransformer</RootNamespace>
+    <AssemblyName>Vilip.Utilities.EnvironmentTransformer</AssemblyName>
+    <RootNamespace>Vilip.Utilities.EnvironmentTransformer</RootNamespace>
     <Description>Environment variable mapper for Microsoft.Extensions.Configuration</Description>
     <Authors>Vilius Paliokas</Authors>
-    <PackageId>Vilip.Utilties.EnvironmentTransformer</PackageId>
+    <PackageId>Vilip.Utilities.EnvironmentTransformer</PackageId>
   </PropertyGroup>
   
   <ItemGroup>

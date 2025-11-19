@@ -1,6 +1,6 @@
 ﻿using FluentAssertions;
 
-namespace Vilip.Utilties.EnvironmentTransformer.Tests;
+namespace Vilip.Utilities.EnvironmentTransformer.Tests;
 
 
 public class EnvironmentTransformerTests : IDisposable

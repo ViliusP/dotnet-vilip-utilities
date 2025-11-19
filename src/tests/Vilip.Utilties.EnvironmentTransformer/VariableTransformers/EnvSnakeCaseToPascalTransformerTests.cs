@@ -1,8 +1,8 @@
 using System.Globalization;
 using FluentAssertions;
-using Vilip.Utilties.EnvironmentTransformer.VariableTransformers;
+using Vilip.Utilities.EnvironmentTransformer.VariableTransformers;
 
-namespace Vilip.Utilties.EnvironmentTransformer.Tests.VariableTransformers;
+namespace Vilip.Utilities.EnvironmentTransformer.Tests.VariableTransformers;
 
 
 public class EnvSnakeCaseToPascalTransformerTests

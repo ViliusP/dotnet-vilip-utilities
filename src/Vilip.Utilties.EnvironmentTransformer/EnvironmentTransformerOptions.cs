@@ -1,4 +1,4 @@
-namespace Vilip.Utilties.EnvironmentTransformer;
+namespace Vilip.Utilities.EnvironmentTransformer;
 
 
 /// <summary>

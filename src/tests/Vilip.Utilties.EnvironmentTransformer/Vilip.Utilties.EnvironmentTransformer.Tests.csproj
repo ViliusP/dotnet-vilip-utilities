@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Vilip.Utilties.EnvironmentTransformer\Vilip.Utilties.EnvironmentTransformer.csproj" />
+    <ProjectReference Include="..\..\Vilip.Utilities.EnvironmentTransformer\Vilip.Utilities.EnvironmentTransformer.csproj" />
   </ItemGroup>
 
 </Project>
